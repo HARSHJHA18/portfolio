@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/b40d33de40.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 id="logo"><span id="cap">H</span>arsh</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+        <div class="chota-image">
+            <img src="images/chota 2 mera.png" alt="">
+        </div>
+        <div class="header-text">
+            
+            <h1>Hi, it's  <span id="cap">Harsh</span></h1>
+            <h1 id="designation">I am  <span id="element">Web Developer</span></h2>
+            <p id="header-p">Final-year student ready to kickstart my tech career with expertise in front-end web development and DSA in Java. Excited to bring in my skills and explore opportunities.</p>
+            <a href="#contact"><button class="btns" id="chota-btn1">Hire Me</button></a>
+            <a href="https://github.com/HARSHJHA18"><button class="btns" id="chota-btn">Git Hub</button></a>
+        </div>
+     </div>
+
+</div>
+<!-- --------------------------------about-------------------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1000183180.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>I am a dedicated Java coder and web developer known for my hard work and commitment to excellence. With a intermediate knowledge of DSA in Java and a strong foundation in web development, I consistently deliver high-quality, responsive websites that meet both user and client needs. My relentless pursuit of improvement and innovation ensures that I stay at the forefront of technology, making me a reliable and valuable professional in the tech industry.My dedication to continuous learning and improvement ensures that I stay ahead in the ever-evolving world of technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>DSA in Java</span><br>A primary Java coder</li>
+                        <li><span>Web Development</span><br>Designing web pages</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Team In-charge</span><br>Team In-charge of official e-media team of our college.</li>
+                        <li><span>Video Editor</span><br>Full time video editor in official e-media team of our college.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Graduation</span><br>Currently Persuing BTECH in Information Technology from Haldia Institute of Technology.</li>
+                        <li><span>Senior-Secondary</span><br>Persued from Guru Gobind Singh Public School, Bokaro, Jharkhand.</li>
+                        <li><span>Secondary</span><br>Persued from DAV Public School, Dhanbad, Jharkhand.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------------servicess------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services :</h1><br>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>DSA</h2><br>
+                <p>DSA (Data Structures and Algorithms) is the study of organizing data efficiently using data structures like arrays, stacks, and trees, paired with step-by-step procedures (or algorithms) to solve problems effectively.</p>
+                <br><a href="https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design </h2><br>
+                <p>Web design crafts user-friendly interfaces, ensuring seamless navigation and brand consistency across all devices. It balances aesthetics with functionality to enhance user experience.</p>
+                <br><a href="https://www.interaction-design.org/literature/topics/web-design">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-images"></i>
+                <h2>Video Editing</h2><br>
+                <p>Video editing is the post-production and arrangement of video shots. To showcase excellent video editing to the public, video editors must be reasonable and ensure they have a thorough understanding of film, television, and other sorts of videography.</p>
+                <br><a href="https://en.wikipedia.org/wiki/Video_editing">Learn more</a>
+            </div>
+
+
+ 
+        </div>
+
+
+    </div>
+</div>
+<!-- ----------------------------My work--------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/web design.webp" alt="" >
+                <div class="layer">
+                    <h3>E-com Website</h3>
+                    <p>This website is an e-com colothing website.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/photo-1519124080359-bfc4bb96f9aa.avif" alt="">
+                <div class="layer">
+                    <h3>Apps</h3>
+                    <p>Comming soon...</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/lens-camera_101299-11.jpg" alt="">
+                <div class="layer">
+                    <h3>Video Editing</h3>
+                    <p>Click to see some amazing video editing works.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <a href="#"><button class="btn">See More</button></a>
+</div>
+<!-- ------------------------Contact-------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2><br>
+                <p id="emails"><i class="fa-solid fa-envelope"></i><a href="jha18harsh@gmail.com"> jha18harsh@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+91 9334271907"> +91 9110091331</a></p><br>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100055145824467" ><i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.instagram.com/_mr.__jerry?igsh=ZW52cDA5NGdtdGw0"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/harsh-jha-72b64b245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/HaRsH18Jha?t=lMszX2_QA3bPL4uD1FjrfA&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>   
+                    <a href="images/RESUME HARSHoriginal (1).pdf" download="Harsh's CV"><button class="btn">Download CV</button></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+                <p id="msg"></p>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="last">
+    <p>Copyright© All rights reserved Jerry</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
